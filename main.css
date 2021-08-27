@@ -1,0 +1,581 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Homemade+Apple&family=PT+Sans+Narrow&display=swap');
+
+*{
+    
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+:root {
+    background-color: black;
+}
+.homebutton{
+    width: 0px;
+}
+.page1 {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    
+}
+
+.page2 {
+    background-color: rgb(230,6,1);
+    width: 100% ;
+    height:100vh ;
+}
+.page3 {
+    background-color:black;
+    width: 100%;
+    height: 100vh ;
+    
+}
+.page4 {
+    background-color:rgb(230,6,1);
+    width: 100%;
+    height:100vh;
+    
+}
+.page5 {
+    background-color:black;
+    width:100% ;
+    height:100vh;
+    font-family:'Homemade Apple', cursive;
+    text-align:right ;
+    
+}
+
+.image{
+    width: 300px;
+    position: absolute ;
+    align-items: center;
+    top: 10%;
+    left: 10%;
+
+
+}
+ .headings{
+     margin-left: 35%;
+     padding-top:48% ;
+     font-family:'Bungee', cursive ;
+     line-height: 35px; 
+     text-align: center;
+     position: relative;
+
+     
+ }
+
+h1 {
+ color: white ;
+ font-size: 30px;
+}
+.h11:hover span {
+ display: none ;
+
+}
+
+.h11:hover:before{
+    
+    content: "ABOUT";
+    color: orangered;
+       
+}
+.h12:hover span {
+    display: none ;
+   
+   }
+
+.h12:hover:before {
+    content: "MY SKILL";
+    color: orangered;
+    
+    
+}
+.h13:hover span {
+    display: none;
+   
+   }
+.h13:hover:before {
+    content: "PORTFOLIO";
+    color: orangered ;
+    
+}
+.h14:hover span {
+    display: none ;
+   
+   }
+.h14:hover:before {
+    content: "CONTACT";
+    color: orangered ;
+   
+    
+}
+
+
+.aboutme{
+    width: 100% ;
+    margin: 10px ;
+ 
+    font-family:'Homemade Apple', cursive;
+    
+
+    
+}
+.abouttext{
+    width: 100% ;
+}
+.aboutme p{
+    font-size: 12px;
+    font-family: 'Homemade Apple', cursive ;
+ 
+}
+
+.aboutimg{
+    width: 250px ;
+   
+    
+} 
+
+.myskill{
+    width: 100%;
+    margin: 10px;
+    font-family: 'Homemade Apple', cursive;
+    text-align: right;
+    
+}
+.myskill p{
+    font-size: 12px;
+    font-family: 'Homemade Apple', cursive ;
+    line-height: 28px ;
+    color:  rgb(230,6,1);
+    margin-right: 10px;
+}
+.myskill h1 {
+    margin: 10px;
+}  
+
+.skillimg{
+    width: 100%;
+    margin: 5px;
+    padding-left: 20px;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center ;
+    
+}
+.images{
+    width: 80px;  
+}
+.divimg{
+    padding:20px ;
+    margin: 0px 10px 0px 10px;
+    
+}
+.divimg p{
+    text-align: center ;
+    color: whitesmoke;
+    font-family:  'Bungee', cursive ;
+    font-size: 12px;    
+}
+
+a{
+ text-decoration: none ;
+}
+
+.portfolio{
+    width:100% ;
+    padding-left: 10px; 
+    
+    text-align:center;
+    display:flex ;
+    flex-wrap:wrap;
+    align-content:center;
+    font-family: 'Bungee', cursive ;
+}
+ 
+.page4 h1{
+    margin: 10px;
+    margin-bottom:0px ;
+    font-family: 'Homemade Apple', cursive ;
+    text-align: left;
+
+}
+
+
+.imagesport{
+    width: 80px ;
+    border-radius:25px;
+    margin:10px ;
+    font-family: 'Bungee', cursive ;
+   
+   
+}
+.ph{
+    font-size: 10px;
+    line-height: 20px;
+    
+}
+.pp{
+    
+    font-size: 0px ;
+    color: none;
+
+}
+.divport{
+    width: 100px ;
+    color:whitesmoke ;
+    margin: 0px 10px 0px 10px ;
+    margin: 0px 30px;
+    
+    
+}
+
+.editing{
+    width: 200px;
+    margin:0px 60px;
+    margin-top:5px;
+    color: whitesmoke;
+
+}
+
+.mySlides{
+    border-radius: 50px;
+}
+
+.contact{
+    margin:10px ;
+    margin-bottom:10px;
+    color:rgb(230,6,1);
+    text-align: center;
+    font-family: 'Bungee', cursive;
+    font-size: 20px ;
+    padding-bottom: 80px;
+
+}
+.contact p{
+    margin-bottom: 80px;
+}
+
+.cp{
+    font-size:15px ;
+   
+}
+.social{
+    margin-right: 65px;
+    margin-top: 60px;
+}
+
+.smedia{
+    width: 40px ;
+    padding-right:10px ;
+    
+    
+}
+
+
+@media only screen and (min-width: 800px){ 
+
+.homebutton{
+    width: 100px;
+    position: -webkit-sticky;
+    top: 0;
+    right: 48%;
+    
+    position: fixed;
+    
+}
+
+
+.page1 {
+    width: 100%;
+    height: 100vh;
+    
+    
+}
+
+    .page2 {
+        background-color:rgb(230,6,1)  ;
+        width: 100%;
+        height: 100vh;
+    }
+    .page3 {
+        background-color:black ;
+        width: 100%;
+        height: 100vh;
+        
+    }
+    .page4 {
+        background-color:rgb(230,6,1);
+        width: 100%;
+        height: 100vh;
+        font-family: 'Homemade Apple', cursive;
+        
+    }
+    .page5 {
+        background-color: black;
+        width: 100%;
+        height: 100vh;
+        font-family: 'Homemade Apple', cursive;
+        text-align: right;
+        padding-right: 50px;
+        margin: 0px;
+        padding: 0px;
+        
+    }
+
+    .image{
+        width: 80vh;
+        position: absolute;
+        margin-top: 6vh;
+        margin-left: 35vh;
+        right: auto;
+
+
+    }
+    .headings{
+        padding-left: 26vh;
+        padding-top: 130px;
+        font-family: 'Bungee', cursive;
+        line-height: 50px;
+        text-align: left;
+        
+
+        
+    }
+
+    h1 {
+    color: whitesmoke;
+    font-size: 120px;
+    position: relative;
+    bottom: 0;
+    }
+    .h11:hover span {
+    display: none;
+
+    }
+
+    .h11:hover:before{
+        
+        content: "ABOUT";
+        color: orangered;
+       
+    }
+    .h12:hover span {
+        display: none;
+    
+    }
+
+    .h12:hover:before {
+        content: "MYSKILLS";
+        color: orangered;
+  
+        
+    }
+    .h13:hover span {
+        display: none;
+    
+    }
+    .h13:hover:before {
+        content: "PORTFOLIO";
+        color: orangered;
+
+        
+    }
+    .h14:hover span {
+        display: none;
+    
+    }
+    .h14:hover:before {
+        content: "CONTACT";
+        color: orangered;
+
+        
+    }
+
+
+    .aboutme{
+        width: 100%;
+        margin: 0px;
+        margin-right: 0px;
+        font-family: 'Homemade Apple', cursive;
+        display: flex;
+
+        
+    }
+    .abouttext{
+        width: 50%;
+        padding-left: 20px;
+        margin-right: 60px;
+    
+    }
+    .aboutme p{
+        font-size: 25px;
+        font-family: 'Homemade Apple', cursive;
+        line-height: 50px;
+    }
+    .aboutme h1 {
+        margin: 0px;
+    } 
+    .aboutimg{
+        width: 733px;
+        margin: 0px;
+        
+        
+    } 
+
+    .myskill{
+        width: 50%;
+        margin: 0px;
+        font-family: 'Homemade Apple', cursive;
+        float: right;
+        text-align: right;
+        padding-right: 20px;
+        
+    }
+    .myskill p{
+        font-size: 25px;
+        font-family: 'Homemade Apple', cursive;
+        line-height: 50px;
+        color: rgb(230,6,1) ;
+    }
+    .myskill h1 {
+        margin: 0px;
+    }  
+
+    .skillimg{
+        width: 35%;
+        margin: 50px;
+        margin-top: 50px;
+        
+        float: left;
+        text-align: center;
+        display: flex;
+        flex-wrap: wrap;
+        align-content: center;
+        
+    }
+    .images{
+        width: 200px;
+
+        
+    }
+    .divimg{
+        padding: 20px;
+        
+    }
+    .divimg p{
+        text-align: center;
+        color: whitesmoke;
+        font-family: 'Bungee', cursive;
+        font-size: 15px;
+        
+    }
+
+    a{
+    text-decoration: none;
+    }
+
+    .portfolio{
+        width: 100%;
+        padding-left: 50px;
+        
+        
+        text-align: center;
+        display: flex;
+        flex-wrap: wrap;
+        align-content: center;
+        font-family: 'Bungee', cursive;
+        
+        
+    }
+    
+    .page4 h1{
+        margin: 50px;
+        margin-bottom: 0px;
+        display: inline-block;
+        text-align: left;
+
+    }
+
+
+    .imagesport{
+        width: 220px;
+        border-radius: 110px;
+        margin: 20px;
+        font-family: 'Bungee', cursive;
+        
+        
+    }
+    .ph{
+        font-size: 16px;
+        text-align: center;
+        padding-left: 40px;
+    }
+    .pp{
+        font-size: 12px;
+        color: black;
+        padding-left: 40px;
+    }
+    .ppe{
+        font-size: 12px;
+        color: black;
+        padding-left: 0px;
+        
+    }
+    .divport{
+        width: 220px;
+        color: whitesmoke;
+        margin-top: 12px;
+        font-size: 16px;
+    }
+
+    .editing{
+        width: 275px;
+        margin: 20px;
+        margin-top: 0px;
+        margin-left: 100px;
+        color: whitesmoke;
+        margin-right: 0px;
+       
+
+    }
+
+    .mySlides{
+        border-radius: 110px;
+    }
+    .page5 h1{
+        padding-right: 20px;
+        display: inline-block;
+    }
+    .contact{
+      margin-top: -70px;
+      margin-bottom: 0px;
+      color: rgb(230,6,1);
+      text-align: center;
+      font-family: 'Bungee',cursive;
+      font-size: 40px;
+
+    }
+    
+
+    .cp{
+        font-size: 30px;
+        margin-top: -50px;
+    }
+    .social{
+        margin-top: -80px;
+        margin-right: 40%;
+        
+    }
+
+    .smedia{
+        width: 60px;
+        padding-right: 10px;
+        margin-top: -100px;
+
+
+    }
+
+
+}
